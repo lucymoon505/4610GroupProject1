@@ -49,7 +49,7 @@ Our data model represents an emergency healthcare clinic chain. We have thirteen
 ![Screenshot 2024-03-26 at 9 44 03 PM](https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/9e7dd1c0-bf55-4aa6-8d7f-f8806508e56e)
 
 ## Queries:
-<img width="888" alt="Screenshot 2024-03-27 at 9 40 15 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/38be9521-f767-4f7d-be88-04b3722451a9">
+<img width="887" alt="Screenshot 2024-03-27 at 9 48 52 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/c194fe45-a63c-44a2-8a13-35b392fcf508">
 
 1. Query 1 displays important prescription information for a patient (including multiple prescription occurrences for a patient). It lists patient's names, pharmacy IDs, medicines, dosages, and prescription IDs.
 
@@ -99,11 +99,11 @@ This query is useful because it would allow the clinic to allocate resources and
 
 This query shows the dates on the staff’s schedule where there are less than three employees to work in the clinic that day. This is an important number because it tells upper management, who design the staff schedule, to assign more employees to the appropriate days to ensure the clinic is fully staffed and every patient is properly cared for. 
 
-9. Query 9 displays the patient ID, patient name, the total amount they have spent, and the percentage of this amount out of the total amount spent by patients in the USA.
-   
-<img width="1603" alt="Screenshot 2024-03-27 at 9 34 11 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/a26a3619-d69d-463a-aece-b0b7c54ece26">
+9. Query 9 displays the patient ID, patient name, the total amount they have spent, and the percentage of this amount out of the total amount spent by patients in Georgia.
 
-This can be used to identify which patients in the USA are spending the most amount of money and how much they contribute to the total amount.
+<img width="1600" alt="Screenshot 2024-03-27 at 9 52 55 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/94e48389-355c-45ba-ab1b-d3021ef13402">
+
+This can be used to identify which patients in Georgia are spending the most amount of money and how much they contribute to the total amount.
 
 10. Query 10 retrieves the names of labs and diagnostic test times. It additionally filters by a specific test time.
 
@@ -114,7 +114,6 @@ This query would be useful for a district lab manager who works for the healthca
 ## Database Information
 
 Name of Database: ns_Sp24_21484_Group2
+
 Procedure Call: CALL TP_Q1 ();
-
-
-## Database Information
+TP_Q1 ();
